@@ -1,6 +1,11 @@
+const URL = window.location.href;
+const swLocation = '/twitor/sw.js';
 
 if(navigator.serviceWorker){  //si existe
-    navigator.serviceWorker.register('/sw.js');
+    if(URL.includes('localhost')){
+        swLocation = '/sw.js';
+    }
+    navigator.serviceWorker.register(swLocation);
 }
 
 

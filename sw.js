@@ -5,16 +5,16 @@ const CACHE_DYNAMIC_LIMIT = 50;
 
 // todo lo necesario para que funcione es decir es el corazon de la app
 const APP_SHELL = [
-  "/",
-  "/index.html", /// or 'index.html'
-  "/css/style.css",
-  "/img/favicon.ico",
-  "/img/avatars/hulk.jpg",
-  "/img/avatars/ironman.jpg",
-  "/img/avatars/spiderman.jpg",
-  "/img/avatars/thor.jpg",
-  "/img/avatars/wolverine.jpg",
-  "/js/app.js"
+//   "/",
+  "index.html", /// or 'index.html'
+  "css/style.css",
+  "img/favicon.ico",
+  "img/avatars/hulk.jpg",
+  "img/avatars/ironman.jpg",
+  "img/avatars/spiderman.jpg",
+  "img/avatars/thor.jpg",
+  "img/avatars/wolverine.jpg",
+  "js/app.js"
 ];
 
 ////lo que no se va a modificar jamas
